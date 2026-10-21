@@ -1,0 +1,25 @@
+# Build artifacts
+*.o
+*.elf
+*.bin
+*.hex
+*.map
+build/
+firmware/build/
+
+# Host test binaries
+host/tests/run_tests
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.csv
+.pytest_cache/
+
+# IDE & Editor files
+.vscode/
+.idea/
+*.swp
+*~
+.DS_Store
